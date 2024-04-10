@@ -20,7 +20,7 @@ $ nvm use 18
 $ node --version
 ```
 
-# Setup firebase for Angular
+## Setup firebase for Angular
 ```sh
 $ ng add @angular/fire
 ```
