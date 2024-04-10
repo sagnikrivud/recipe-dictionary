@@ -88,8 +88,28 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "recepie-book:build:production",
+              "serveTarget": "recepie-book:serve:production"
+            },
+            "development": {
+              "buildTarget": "recepie-book:build:development",
+              "serveTarget": "recepie-book:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

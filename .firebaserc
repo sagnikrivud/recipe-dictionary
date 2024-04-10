@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "learnfirestore-55715": {
+      "hosting": {
+        "recepie-book": [
+          "learnfirestore-55715"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "learnfirestore-55715"
+  }
+}
