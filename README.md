@@ -28,3 +28,14 @@ $ ng add @angular/fire
 ```sh
 $ npm install firebase
 ```
+## Setup and Installation
+> Git clone
+```sh
+$ git clone 
+```
+```sh
+$ npm install
+```
+```sh
+$ ng serve
+```
