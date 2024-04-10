@@ -19,3 +19,12 @@ $ nvm use 18
 ```sh
 $ node --version
 ```
+
+# Setup firebase for Angular
+```sh
+$ ng add @angular/fire
+```
+> Add authentication from a project
+```sh
+$ npm install firebase
+```
