@@ -39,3 +39,8 @@ $ npm install
 ```sh
 $ ng serve
 ```
+
+## Create Angular Environment ts
+```sh
+$ ng generate environments
+```
