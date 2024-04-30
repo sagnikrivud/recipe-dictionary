@@ -1,0 +1,88 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url('/assets/banner/home-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+header p {
+  font-size: 18px;
+  color: #666;
+}
+
+main {
+  text-align: center;
+}
+
+.featured-categories {
+  display: flex;
+  justify-content: center;
+}
+
+.category-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.category-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.category-card h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.category-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+.header-bg {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
