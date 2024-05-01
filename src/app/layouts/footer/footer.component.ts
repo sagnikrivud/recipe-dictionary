@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'section-footer',
@@ -8,5 +10,18 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
+  isHomePage: boolean = false;
 
+  constructor(private router: Router, private _location: Location) { 
+
+  }
+  /**
+   * Initiate on Footer load
+   */
+  ngOnInit(): void {
+    this.isHomePage = this.router.url === '/';
+  }
+  goBack() {
+    this._location.back();
+  }
 }
