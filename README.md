@@ -44,3 +44,6 @@ $ ng serve
 ```sh
 $ ng generate environments
 ```
+
+### Home Page
+![Home page](/blobs/home.png)
