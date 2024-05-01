@@ -48,5 +48,5 @@ $ ng generate environments
 ### Home Page
 ![Home page](/blobs/home.png)
 
-### Veg type Page
+### Veg category Page
 ![Veg category](/blobs/Vegtype.png)
