@@ -12,3 +12,8 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
 }
+
+a {
+  text-decoration: none; /* Remove underline from anchor tags */
+  color: inherit; /* Inherit text color from parent */
+}
