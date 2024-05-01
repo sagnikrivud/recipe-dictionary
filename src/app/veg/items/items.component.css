@@ -1,5 +1,6 @@
 body {
   font-family: Arial, sans-serif;
+  background-image: url('/assets/banner/home-bg.jpg');
   margin: 0;
   padding: 0;
 }
@@ -19,29 +20,22 @@ main {
 }
 
 .food-item {
-  width: 300px;
-  background-color: #fff;
-  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Make all corners rounded to create a circular shape */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
-.food-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-}
-
-.food-item h2 {
+.food-item h2, .food-item p {
+  color: #fff;
+  text-align: center;
   padding: 10px;
   margin: 0;
-}
-
-.food-item p {
-  padding: 0 10px 10px;
-  margin: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background for better readability */
 }
 
 footer {
