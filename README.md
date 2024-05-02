@@ -58,7 +58,7 @@ $ ng generate service component/service/name
 
 ### Create Component
 ```sh
-$ ng generate component component/name`
+$ ng generate component component/name
 ```
 
 ### Global scoped CSS Location
