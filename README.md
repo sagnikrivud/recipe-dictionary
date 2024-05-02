@@ -60,3 +60,6 @@ $ ng generate service component/service/name
 ```sh
 $ ng generate component component/name`
 ```
+
+### Global CSS Location
+> /application/src/styles.css
