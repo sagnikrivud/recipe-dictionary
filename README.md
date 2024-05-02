@@ -50,3 +50,13 @@ $ ng generate environments
 
 ### Veg category Page
 ![Veg category](/blobs/Vegtype.png)
+
+### Create Service
+```sh
+$ ng generate service component/service/name
+```
+
+### Create Component
+```sh
+$ ng generate component component/name`
+```

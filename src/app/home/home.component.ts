@@ -11,5 +11,5 @@ import { FooterComponent } from '../layouts/footer/footer.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  title = 'Home';
 }
