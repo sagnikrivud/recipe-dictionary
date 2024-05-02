@@ -61,5 +61,5 @@ $ ng generate service component/service/name
 $ ng generate component component/name`
 ```
 
-### Global CSS Location
+### Global scoped CSS Location
 > /application/src/styles.css
