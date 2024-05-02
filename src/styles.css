@@ -17,3 +17,12 @@ a {
   text-decoration: none; /* Remove underline from anchor tags */
   color: inherit; /* Inherit text color from parent */
 }
+
+/* Utilities */
+.h-screen {
+  height: 100vh !important;
+}
+
+.h-100 {
+  height: 100% !important;
+}
