@@ -63,3 +63,6 @@ $ ng generate component component/name`
 
 ### Global scoped CSS Location
 > /application/src/styles.css
+
+### Available Icons
+> https://ionic.io/ionicons
