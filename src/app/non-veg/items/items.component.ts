@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { Firestore } from 'firebase/firestore';
+import { Observable } from 'rxjs';
+import { IFood } from '../../shared/Interfaces/food.model';
 
 @Component({
   selector: 'app-items',
@@ -8,5 +11,5 @@ import { Component } from '@angular/core';
   styleUrl: './items.component.css'
 })
 export class ItemsComponent {
-
+  
 }
