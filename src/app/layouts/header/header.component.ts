@@ -8,5 +8,8 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component } from '@angular/core';
   styleUrl: './header.component.css'
 })
 export class HeaderComponent {
-
+  const title = '';
+  changeTitle() {
+    this.title = 'New Title';
+  }
 }
